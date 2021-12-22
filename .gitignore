@@ -1,0 +1,11 @@
+vendor/*
+.docker/*
+.env
+internal/main
+internal/internal
+*.log
+tmp
+livestream
+rtp-forwarder
+*.sdp
+main
