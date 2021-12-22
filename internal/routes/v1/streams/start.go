@@ -30,6 +30,7 @@ type FFMPeg struct {
 // @Success      200  {object}  stream.ResponseSwagStartStreamSuccess
 // @Failure		 200  {object}	stream.ResponseSwagStartStreamFail
 // @Router       /v1/streams/{id}/start [post]
+
 func (controller *Controller) Start(w http.ResponseWriter, r *http.Request) {
 	var err error
 
