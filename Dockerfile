@@ -13,9 +13,9 @@ ENV DASH_SERVER "https://bifrost.inlive.app"
 ENV MANIFEST_FILENAME "manifest.mpd"
 ENV SDP_FILENAME "rtpforwarder.sdp"
 
-ENV DB_HOST "34.101.236.119"
+ENV DB_HOST "35.224.62.105"
 ENV DB_USER "postgres"
-ENV DB_PASS "kZ3yr37JLY3Nr3JUbuEg"
+ENV DB_PASS "Jakarta123!"
 ENV DB_NAME "livestream"
 
 COPY --from=builder /app/main .
